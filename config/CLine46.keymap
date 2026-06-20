@@ -34,6 +34,16 @@
             bindings = <&mkp MB2>;
             key-positions = <20 21>;
         };
+
+        english {
+            bindings = <&kp LANG1>;
+            key-positions = <14 15>;
+        };
+
+        japanese {
+            bindings = <&kp LANG2>;
+            key-positions = <16 15>;
+        };
     };
 
     macros {
