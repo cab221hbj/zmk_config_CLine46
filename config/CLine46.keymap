@@ -35,13 +35,13 @@
             key-positions = <20 21>;
         };
 
-        english {
-            bindings = <&kp LANG1>;
+        lang2 {
+            bindings = <&kp LANGUAGE_2>;
             key-positions = <14 15>;
         };
 
-        japanese {
-            bindings = <&kp LANG2>;
+        lang1 {
+            bindings = <&kp LANGUAGE_1>;
             key-positions = <16 15>;
         };
     };
@@ -80,10 +80,10 @@
 
         layer_1 {
             bindings = <
-&kp CARET  &kp EQUAL     &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp AT_SIGN                                  &kp LEFT_PARENTHESIS  &kp DOUBLE_QUOTES  &kp RIGHT_PARENTHESIS  &kp SEMI   &kp EXCLAMATION  &kp QMARK
-&kp MINUS  &kp PLUS      &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp HASH                                     &kp LEFT_BRACKET      &kp SINGLE_QUOTE   &kp RIGHT_BRACKET      &kp COLON  &kp AMPERSAND    &kp PIPE
-&kp SLASH  &kp ASTERISK  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp UNDERSCORE                               &kp SLASH             &kp BACKSLASH      &kp COMMA              &kp DOT    &kp DOLLAR       &kp PERCENT
-           &kp ESC       &kp NUMBER_0  &kp DOT       &trans        &trans          &kp LC(UP_ARROW)    &kp RET  &kp BSPC                                                        &kp DEL    &trans
+&kp GRAVE         &kp EQUAL     &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp AT_SIGN                                  &kp LEFT_PARENTHESIS  &kp DOUBLE_QUOTES  &kp RIGHT_PARENTHESIS  &kp SEMI   &kp EXCLAMATION  &kp QMARK
+&kp LS(NUMBER_6)  &kp PLUS      &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp HASH                                     &kp LEFT_BRACKET      &kp SINGLE_QUOTE   &kp RIGHT_BRACKET      &kp COLON  &kp AMPERSAND    &kp PIPE
+&kp SLASH         &kp ASTERISK  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp UNDERSCORE                               &kp SLASH             &kp BACKSLASH      &kp COMMA              &kp DOT    &kp DOLLAR       &kp PERCENT
+                  &kp ESC       &kp NUMBER_0  &kp DOT       &trans        &trans          &kp LC(UP_ARROW)    &kp RET  &kp BSPC                                                        &kp DEL    &trans
             >;
         };
 
